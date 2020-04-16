@@ -3,6 +3,8 @@ import decimal_conversion
 import test_bin
 import sys
 
+print('Hello! Before use this program, read readme.md')
+
 number_1 = str(input('enter number 1:'))
 if number_1 != '' and test_bin.test_bin(number_1) is True:
     number_2 = str(input('enter number 2:'))
